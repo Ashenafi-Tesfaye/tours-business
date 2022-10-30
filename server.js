@@ -14,7 +14,7 @@ mongoose.connect(DB,
     useFindAndModify: false,
     useUnifiedTopology: true 
 }).then(con => {
-    console.log("from the connection section");
+   // console.log("from the connection section");
     console.log(con.connection);
     console.log('DB connection successful!');
 });
